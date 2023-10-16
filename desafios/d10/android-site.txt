@@ -1,3 +1,5 @@
+[SITE]
+
 paleta de cores
 #C5EBD6
 #83E1AD
