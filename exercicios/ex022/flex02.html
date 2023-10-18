@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        main{
+            display: flex;
+        }
+        div.container{
+            width: 170px;
+            height: 800px;
+            
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        div#b1{
+            width: 150px;
+            height: 150px;
+            border: 2px solid rgb(214, 84, 106);
+            background-color: pink;
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        div#b2{
+            width: 150px;
+            height: 600px;
+            border: 2px solid rgb(214, 84, 106);
+            background-color: pink;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        div.container2{
+            width: 500px;
+            height: 800px;
+            
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+
+        div#b3{
+            width: 480px;
+            height: 250px;
+            border: 2px solid rgb(214, 84, 106);
+            background-color: pink;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            
+        }
+
+        div#b4{
+            width: 480px;
+            height: 250px;
+            border: 2px solid rgb(214, 84, 106);
+            background-color: pink;
+            text-align: center;
+            padding: 5px;
+            margin-top:30px ;
+            border-radius: 10px;
+        }
+        
+        div.container3{
+            width: 170px;
+            height: 800px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        div#b5{
+            width: 150px;
+            height: 780px;
+            border: 2px solid rgb(214, 84, 106);
+            background-color: pink;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div id="b1">Caixa1</div>
+            <div id="b2">Caixa2</div>
+        </div>
+        <div class="container2">
+            <div id="b3">Caixa3</div>
+            <div id="b4">Caixa4</div>
+        </div>
+        <div class="container3">
+            <div id="b5">Caixa5</div>
+        </div>
+    </main>
+</body>
+</html>
