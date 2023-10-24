@@ -43,7 +43,7 @@ header>h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte3);
-    font-size: 6em;
+    font-size: 7vw;
 }
 
 header>p{
@@ -71,7 +71,7 @@ section{
     line-height: 2em;
     font-family: var(--fonte2);
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 3vw;
 }
 
 section.normal{
@@ -82,7 +82,7 @@ section.normal{
 }
 
 section.normal>p{
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 0px 0px black;
     font-weight: normal;
 }
 
